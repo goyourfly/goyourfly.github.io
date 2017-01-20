@@ -1,7 +1,6 @@
 ---
 layout: post
-title: "Goyourlfy, Launches Site"
+title: "算法学习之路 Day 1"
 date: 2017-01-20
 ---
-
-Well. Finally got around to putting this old website together. Neat thing about it - powered by [Jekyll](http://jekyllrb.com) and I can use Markdown to author my posts. It actually is a lot easier than I thought it was going to be.
+> 参加工作快3年了，做了很多的App，对Android这一套Api的使用也滚瓜烂熟，感觉没什么可以扩展的，但是只是会一个简单的使用别人写好的Api，那我跟搬砖头有什么区别呢？那怎么能提高自己的能力，有能力去做一些创造性的东西，而不是做一个辛苦的码农呢？经过别人指点和自己探究，我觉得应该从程序员最根本的东西 -- `算法入手
