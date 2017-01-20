@@ -16,15 +16,16 @@ date: 2017-01-20
   插入排序的核心思想是：将一个列表的分为左边有序区和右边无序区域，然后，从无序区去一个值A，和有序区的值B从右往左比较，如果发现A < B，则将B往右移动一个位置，腾出B原来的位置，然后，A继续和B左边的值C比较，如果A < C ？ 重复以上步骤，否则把A放在C的右边（既B原来的位置），以此类推直到无序区域的数值都移动到有序区为止。
 
 * 程序实现
-
-        var a = [9,6,7,8,5,2,3,1,4];
-        console.log("a not order:" + a);
-        for(var i = 0; i < a.length; i++){
-          var temp = a[i];
-          var j;
-          for(j = i - 1; j >= 0 && a[j] > temp; j--){
-                a[j + 1] = a[j];
-           }
-          a[j + 1] = temp;
-        }
-        console.log("a order:" + a)
+  ```javascript
+  var a = [9,6,7,8,5,2,3,1,4];
+  console.log("a not order:" + a);
+  for(var i = 0; i < a.length; i++){
+     var temp = a[i];
+      var j;
+     for(j = i - 1; j >= 0 && a[j] > temp; j--){
+          a[j + 1] = a[j];
+      }
+     a[j + 1] = temp;
+  }
+  console.log("a order:" + a);
+  ```
