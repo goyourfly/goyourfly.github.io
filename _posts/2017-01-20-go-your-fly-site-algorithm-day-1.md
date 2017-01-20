@@ -30,3 +30,28 @@ date: 2017-01-20
   }
   console.log("a order:" + a);
   ```
+### 选择排序
+
+* 时间复杂度：n2
+* 空间复杂度：1
+
+  选择排序的核心思想是：从一个列表中取出一个最小的值，填入一个空的列表中，每次取一个，直到取完为止，如：[2,5,3,1]，第一次取1，放在空数组中[1]，依次...直到左边为[]，右边为[1,2,3,5]。
+  
+* 程序实现
+
+  ```javascript
+  var a = [9,6,7,8,5,2,3,1,4];
+  var length = a.length;
+  for(var i = 0; i < length; i++){
+      var minIndex = i;
+     for(var j = i + 1; j < length; j++){
+          if(a[minIndex] > a[j]){
+              minIndex = j;
+          }
+      }
+      var temp = a[i];
+      a[i] = a[minIndex];
+      a[minIndex] = temp;
+  }
+  console.log("a:" + a);
+  ```
