@@ -3,8 +3,6 @@ body {
     width: 70%;
 }
 
-blockquote p { font-size: 16px; line-height: 1.6em; }
-
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
