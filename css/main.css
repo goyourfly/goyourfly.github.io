@@ -42,3 +42,7 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+hr{
+    border:1px solid:#eee;
+}
