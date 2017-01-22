@@ -3,6 +3,12 @@ layout: default
 title: GoyYourfly
 ---
 
-<h1>Hi there, I'm GoYourfly!</h1>
-<p> Ray Kroc: If you work just for money, you’ll never make it, but if you love what you’re doing and you always put the customer first,success will be yours.</p>
+<ul class="posts">
+
+	{% for post in site.posts %}
+	<li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    <p>post.content</p>
+  </li>
+	{% endfor %}
+</ul>
 
