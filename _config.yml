@@ -1,6 +1,6 @@
 # Mandatory settings
 
-name: Chalk
+name: goyourfly
 paginate: 25
 paginate_path: "/posts/page/:num/"
 url: # add site url http://example.com/
