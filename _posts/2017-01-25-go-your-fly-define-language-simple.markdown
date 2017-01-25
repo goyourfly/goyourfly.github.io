@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "设计一个全新的程序语言"Simple""
+title: "设计一个全新的程序语言 'Simple'"
 date: 2017-01-25
 ---
 
