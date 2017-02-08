@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "算法学习之路 Day 1"
+title: "算法学习-排序算法"
 date: 2017-01-20
 ---
 
