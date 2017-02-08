@@ -68,7 +68,7 @@ date: 2017-01-20
 * 程序实现
 
  ```javascript
-function partition(a,left,right,pivotIndex){
+ function partition(a,left,right,pivotIndex){
 	//首先，将中值和最右边数据交换
 	var pivotValue = a[pivotIndex];
 	a[pivotIndex] = a[right];
@@ -90,8 +90,8 @@ function partition(a,left,right,pivotIndex){
 	a[right] = a[store];
 	a[store] = pivotValue;
   return store;
-}
-function selectKth(a,k,left,right){
+ }
+ function selectKth(a,k,left,right){
     var idx = left;
     var p = partition(a,left,right,idx);
     if(left + k - 1 == p){
@@ -102,8 +102,8 @@ function selectKth(a,k,left,right){
     }else {
         return selectKth(a,k - (p - left + 1),p + 1,right);
     }
-}
-function mediansort(a,left,right){
+ }
+ function mediansort(a,left,right){
     if(right <= left){
         return;
     }
@@ -112,10 +112,10 @@ function mediansort(a,left,right){
     var p = selectKth(a,mid + 1,left,right);
     mediansort(a,left,left + mid-1);
     mediansort(a,left + mid + 1,right);
-}
-var a = [15,9,8,18,1,4,11,7,12,13,6,5,3,16,2,10,14];
-mediansort(a,0,a.length - 1);
-console.log("a:" + a);
+ }
+ var a = [15,9,8,18,1,4,11,7,12,13,6,5,3,16,2,10,14];
+ mediansort(a,0,a.length - 1);
+ console.log("a:" + a);
  ```
  
 ### 快速排序
@@ -146,7 +146,7 @@ console.log("a:" + a);
 	a[store] = pivotValue;
   return store;
  }
-function insertSort(a,left,right){
+ function insertSort(a,left,right){
   //console.log("a:["+left+","+right+"]" + a );
   for(var i = left; i <= right; i++){
      var temp = a[i];
@@ -157,8 +157,8 @@ function insertSort(a,left,right){
      a[j + 1] = temp;
   }
   //console.log("a:["+left+","+right+"]" + a );
-}
-function qSort(a,left,right){
+ }
+ function qSort(a,left,right){
     if(right <= left){
       return;
     }
@@ -180,10 +180,10 @@ function qSort(a,left,right){
     }else{
         qSort(a,midIndex + 1,right);
     }
-}
-var a = [15,9,8,1,4,11,7,12,13,6,5,3,16,2,10,14];
-qSort(a,0,a.length - 1);
-console.log("A:" + a);
+ }
+ var a = [15,9,8,1,4,11,7,12,13,6,5,3,16,2,10,14];
+ qSort(a,0,a.length - 1);
+ console.log("A:" + a);
  ```
  
 ### 堆排序
