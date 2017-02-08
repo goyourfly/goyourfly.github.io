@@ -68,6 +68,7 @@ date: 2017-01-20
 * 程序实现
 
   ```javascript
+  
   function partition(a,left,right,pivotIndex){
 	//首先，将中值和最右边数据交换
 	var pivotValue = a[pivotIndex];
@@ -116,6 +117,7 @@ date: 2017-01-20
  var a = [15,9,8,18,1,4,11,7,12,13,6,5,3,16,2,10,14];
  mediansort(a,0,a.length - 1);
  console.log("a:" + a);
+ 
  ```
  
 ### 快速排序
@@ -125,6 +127,7 @@ date: 2017-01-20
 * 程序实现
 
   ```javascript
+  
   function partition(a,left,right,pivotIndex){
 	//首先，将中值和最右边数据交换
 	var pivotValue = a[pivotIndex];
@@ -184,6 +187,7 @@ date: 2017-01-20
  var a = [15,9,8,1,4,11,7,12,13,6,5,3,16,2,10,14];
  qSort(a,0,a.length - 1);
  console.log("A:" + a);
+ 
  ```
  
 ### 堆排序
