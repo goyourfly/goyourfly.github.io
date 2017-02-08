@@ -67,8 +67,8 @@ date: 2017-01-20
  
 * 程序实现
 
- ```javascript
- function partition(a,left,right,pivotIndex){
+  ```javascript
+  function partition(a,left,right,pivotIndex){
 	//首先，将中值和最右边数据交换
 	var pivotValue = a[pivotIndex];
 	a[pivotIndex] = a[right];
@@ -124,8 +124,8 @@ date: 2017-01-20
 
 * 程序实现
 
- ```javascript
- function partition(a,left,right,pivotIndex){
+  ```javascript
+  function partition(a,left,right,pivotIndex){
 	//首先，将中值和最右边数据交换
 	var pivotValue = a[pivotIndex];
 	a[pivotIndex] = a[right];
@@ -187,5 +187,6 @@ date: 2017-01-20
  ```
  
 ### 堆排序
+
 ### 计数排序
 
