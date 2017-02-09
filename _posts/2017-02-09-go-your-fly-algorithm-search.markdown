@@ -25,7 +25,7 @@ date: 2017-02-09
 
 * 程序实现
 
-	```java
+  ```java
  	 //通过递归实现二分查找
      public static int search(int[] a, int from, int to, int b) {
         int index = (from + to) / 2;
@@ -39,4 +39,4 @@ date: 2017-02-09
             return search(a, index + 1, to, b);
         }
     }
-	```
+  ```
