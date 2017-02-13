@@ -1,5 +1,5 @@
 ---
-title: "OpenCV Mat - 图片容器"
+title: "OpenCV - 图片容器"
 date: 2017-02-13
 ---
 
