@@ -1,5 +1,5 @@
 ---
-title: "OpenCV学习"
+title: "OpenCV - 简介"
 date: 2017-02-13
 ---
 
