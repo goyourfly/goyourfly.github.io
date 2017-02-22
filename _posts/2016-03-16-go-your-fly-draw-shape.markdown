@@ -4,7 +4,7 @@ date: 2016-03-16
 ---
 
 
-###Drawing
+### Drawing
 Canvas有很多的Drawing方法，每个怎么使用呢，我们先看一个简单的    
     
     canvas.drawRect(100, 100, 200, 200, paint);

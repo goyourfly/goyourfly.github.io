@@ -12,7 +12,7 @@ date: 2016-03-25
 
 ![Shader官方文档](http://upload-images.jianshu.io/upload_images/599109-bda47635fb69a3ba.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-###Shader
+### Shader
 Shader是一些类的基类，这些类在绘制时返回水平跨度颜色，如果Paint调用了setShader(Shader shader)方法，那么所有（除Bitmap)的绘制颜色都会从shader中取。
 
 
