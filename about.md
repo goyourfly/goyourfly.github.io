@@ -37,7 +37,7 @@ Email:goyourfly@gmail.com
 ### 职业技能
 
 | Java | Android | JavaWeb | Photoshop | JavaScript | C++ |
-|---|---|---|---|---|---|
+| --- | --- | --- | --- | --- | --- |
 | 80% | 80% | 40% | 50% | 60% | 60% |
 
 
