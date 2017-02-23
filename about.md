@@ -20,6 +20,7 @@ Email:goyourfly@gmail.com
 ### 教育背景
 
 2010 - 2014年，就读于陕西师范大学（211）计算机科学与技术专业
+> 因为兴趣爱好，于2011年开始自学Java，2012年接触Android，随后转学Android开发，并在大学期间独立开发几款Android软件，其中帮助本院博士生开发一款利用WiFi热点传输数据进行验证信息的传播速度并发表论文，另外利用暑假时间，开发一款滑动输入法，并已申请专利。
 
 ### 工作经历
 
@@ -35,9 +36,9 @@ Email:goyourfly@gmail.com
 
 ### 职业技能
 
-| Java |  Android  |  JavaWeb  |  Photoshop  |  JavaScript  |  C++  |
+| Java | Android | JavaWeb | Photoshop | JavaScript | C++ |
 |---|---|---|---|---|---|
-|   80%  |   80% |  40%  |  50%  |  60%  |  60%  |
+| 80% | 80% | 40% | 50% | 60% | 60% |
 
 
 
