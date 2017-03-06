@@ -39,6 +39,7 @@ Activity共有4种启动模式：
 |  B  |
 |  A  |
 | 栈底 |
+
 此时如果此时点击startActivity A，则会继续实例化一个新的Activity A，此时的Task为：
 
 |     |
