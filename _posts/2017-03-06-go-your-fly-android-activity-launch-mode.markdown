@@ -15,3 +15,34 @@ Activity共有4种启动模式：
 
 ### standard
 在standard模式下，我们首先启动Activity A，接着我们在此启动Activity A，我们发现两个Activity A会同时存在，也就是说，在standard launchmode下，每次调用startActivity必然会启动一个新的Activity。
+
+![standard A](https://cloud.githubusercontent.com/assets/7019862/23596549/92da8a98-0266-11e7-8965-6af1553082db.png)
+
+![standard A](https://cloud.githubusercontent.com/assets/7019862/23596598/109ec732-0267-11e7-917d-d9651a8184e7.png)
+
+
+|-----------------+------------+-----------------+----------------|
+| Default aligned |Left aligned| Center aligned  | Right aligned  |
+|-----------------|:-----------|:---------------:|---------------:|
+| First body part |Second cell | Third cell      | fourth cell    |
+| Second line     |foo         | **strong**      | baz            |
+| Third line      |quux        | baz             | bar            |
+|-----------------+------------+-----------------+----------------|
+| Second body     |            |                 |                |
+| 2 line          |            |                 |                |
+|=================+============+=================+================|
+| Footer row      |            |                 |                |
+|-----------------+------------+-----------------+----------------|
+
+
+|---
+| Default aligned | Left aligned | Center aligned | Right aligned
+|-|:-|:-:|-:
+| First body part | Second cell | Third cell | fourth cell
+| Second line |foo | **strong** | baz
+| Third line |quux | baz | bar
+|---
+| Second body
+| 2 line
+|===
+| Footer row
