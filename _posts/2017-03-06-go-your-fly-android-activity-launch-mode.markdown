@@ -21,7 +21,7 @@ Activity共有4种启动模式：
 
 ![standard A](https://cloud.githubusercontent.com/assets/7019862/23596598/109ec732-0267-11e7-917d-d9651a8184e7.png)
 
-#### 一句话概况：不管有没有，我都要新建
+#### 一句话概括：不管有没有，我都要新建
 
 ### singleTop
 
