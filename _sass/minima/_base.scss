@@ -196,3 +196,20 @@ pre {
     fill: $grey-color;
   }
 }
+
+/**
+ * Table
+ */
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #dfe2e5;
+}
+
+th,td{
+    border:1px solid #dfe2e5;
+    padding:5px 15px;
+    text-align:center;
+}
+
+

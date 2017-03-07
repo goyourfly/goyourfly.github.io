@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Surface - 什么是Surface"
 date: 2016-03-03
 ---
