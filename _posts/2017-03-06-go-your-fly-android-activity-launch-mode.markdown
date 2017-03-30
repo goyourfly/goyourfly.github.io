@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Activity 启动模式"
+title: "Activity - 启动模式"
 date: 2017-03-06
 ---
 
