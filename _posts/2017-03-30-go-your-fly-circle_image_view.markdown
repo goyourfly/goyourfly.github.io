@@ -55,7 +55,8 @@ ColorFilter在Android中是一个５* 4的矩阵：
 
 #### 知识点3：Matrix
 
-＞　这里讨论的是Android中`android.graphics.Matrix`这个类
+> 这里讨论的是Android中`android.graphics.Matrix`这个类
+
 Android种的Martix是用来做图像调整的，如平移，缩放，旋转，还有错切，它是一个3 * 3的矩阵．
 
 ````Java
