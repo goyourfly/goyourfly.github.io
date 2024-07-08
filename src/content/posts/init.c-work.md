@@ -1,7 +1,11 @@
 ---
-layout: post
-title: "init.c都干了些什么？"
-date: 2017-08-08
+title: init.c都干了些什么？
+published: 2017-08-08
+description: 'init.c都干了些什么？'
+image: ''
+tags: [Android]
+category: 'Android'
+draft: false 
 ---
 
 # 谁能告诉我，init.c都干了些什么？
