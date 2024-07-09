@@ -6,7 +6,8 @@ category: 技术
 draft: false
 ---
 
-项目地址：[GitHub](https://github.com/goyourfly/ShrinkLinearLayout)
+::github{repo="goyourfly/ShrinkLinearLayout"}
+
 经常能碰到这样一种需求：
 ![](./image.png)
 
@@ -22,4 +23,3 @@ draft: false
     - C = overflowSize * 3 / 6
 但是还有个问题，如果 C 的高度小于 overflowSize * 3 / 6，则要继续给 A 和 B 分配剩余的高度，直到把 overflowSize 分配完，所以这里要用递归处理
 另外还要处理 View 之间的 margin 和 水平还是垂直的 LinearLayout
-最终效果请查看 [GitHub](https://github.com/goyourfly/ShrinkLinearLayout)
