@@ -3,7 +3,7 @@ title: ExoPlayer源码解析
 published: 2017-02-07
 image: ''
 tags: [Android]
-category: 'Android'
+category: 技术
 draft: false 
 ---
 
