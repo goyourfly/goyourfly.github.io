@@ -1,3 +1,3 @@
 # About
 
-::github{repo="goyourfly/goyourfly.github.io"}
+<!-- ::github{repo="goyourfly/goyourfly.github.io"} -->

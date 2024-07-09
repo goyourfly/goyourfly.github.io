@@ -44,7 +44,7 @@ export const navBarConfig: NavBarConfig = {
 export const profileConfig: ProfileConfig = {
   avatar: 'assets/images/cat.jpg',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
   name: 'GYF',
-  bio: '“在这个信息爆炸的时代，真正的智慧不是知道所有答案，而是懂得提出正确的问题。" ---- GPT',
+  bio: '“在这个信息爆炸的时代，真正的智慧不是知道所有答案，而是懂得提出正确的问题。” ---- GPT',
   links: [
     // {
     //   name: 'Twitter',
