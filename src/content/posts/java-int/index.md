@@ -1,3 +1,11 @@
+---
+title: Java 中的整形和浮点类型
+published: 2019-05-20
+tags: [Java]
+category: 技术
+draft: false
+---
+
 首先来看一段代码：
 ````
 System.out.println("NaN equals NaN ? " + (Double.valueOf(Double.NaN).equals(Double.NaN)));
