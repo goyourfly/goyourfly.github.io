@@ -14,29 +14,29 @@ draft: false
 从中可以看出，我们在使用`SurfaceView`时，一般是自定义一个类，并继承`SurfaceView`和`Runnable`，熟悉Java的应该能知道，`Runnable`是实现多线程的接口，由此可见，我们定义的`MySurface`有多线程的特征。
 
 那`SurfaceView`又是什么呢？    
-![SurfaceView](./image.png)
+![SurfaceView](./image_0.png)
 
 从官方文档看，`SurfaceView`继承自android.view.View，也就是说，`SurfaceView`也是和`ImageView`，`TextView`类似的一个普通的View。
 
 然后再看看官方对`SurfaceView`的介绍：
-![SurfaceView官方介绍](./image%20copy.png)
+![SurfaceView官方介绍](./image_1.png)
 
 第一句`提供一个嵌入在View树，专用于绘制Surface`，View树我想大家都知道类似如下，可以用Android Tool：View Hierarchy查看
-![View Tree](./image%20copy%202.png)
+![View Tree](./image_2.png)
 那什么是Surface呢？
-![Surface](./image%20copy%203.png)
+![Surface](./image_3.png)
 从中可以看到，`Surface`继承自`Object`而不是`View`，且实现了`Parcelable`，可见`Surface`不是一个传统意义上的`View`。
 再看看官方介绍
 
-![Surface官方介绍](./image%20copy%204.png)
+![Surface官方介绍](./image_4.png)
 介绍很简短的一句话：由屏幕显示内容合成器（screen compositor)所管理的原始缓冲区的句柄，从中可以看到，`Surface`是个句柄，通过这个句柄，可以获得原始缓冲区及其内容，原始缓冲区用于保存当前窗口的像素数据。
 
 从`Surface`的公开方法中，可以看到有一个`lockCanvas`方法，传入一个矩形区域，返回一个`Canvas`。
 `Canvas`大家应该很熟悉，从字面直译是画布的意思，也就是说，你可以在`Canvas`这块画布上绘制你想要的图像，实际上也是这个用途
-![Surface的方法](./image%20copy%205.png)
+![Surface的方法](./image_5.png)
 看一下`lockCanvas`的介绍
 
-![lockCanvas方法介绍](./image%20copy%206.png)
+![lockCanvas方法介绍](./image_6.png)
 
 从`Surface`获取一块画布用于绘制，在绘制结束后，调用者必须执行`unlockCanvasAndPost(Canvas)`来将新绘制的内容发送到`Surface`。
 

@@ -22,7 +22,7 @@ Canvas有很多的Drawing方法，每个怎么使用呢，我们先看一个简�
 那根据我们的推断，最后的效果应该是绘制一个100 * 100的矩形，其左上角的位置是(100,100)；
 
 
-![drawRect效](./image.png)
+![drawRect效](./image_0.png)
 
 通过真机测试效果确实如设想的那样。
 
@@ -54,13 +54,13 @@ Paint有一个方法叫setStyle(Paint.Style)，传入的类型有3种
 
 其中DashPathEffect就可以我们想要的虚线效果
 
-![drawRect虚线](./image%20copy.png)
+![drawRect虚线](./image_1.png)
 
 如果需要使用到虚线的圆角，则需要使用ComposePathEffect将DashPathEffect和CornerPathEffect组合使用
 
     paint.setPathEffect(new ComposePathEffect(new DashPathEffect(new float[]{8, 8}, 0), new CornerPathEffect(50)));
 
-![drawRect圆角](./image%20copy%202.png)
+![drawRect圆角](./image_2.png)
 
 > 真正需要用到使用圆角矩形，可以直接使用drawRoundRect
 
@@ -70,6 +70,6 @@ Paint有一个方法叫setStyle(Paint.Style)，传入的类型有3种
 
 执行上一段代码，显示效果是这样的：
 
-![Circle基本形状](./image%20copy%203.png)
+![Circle基本形状](./image_3.png)
 
 如果想要空心，同样也是设置Paint的setStyle()方法，用法和Rectangle一样。

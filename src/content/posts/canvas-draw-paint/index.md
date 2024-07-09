@@ -8,7 +8,7 @@ draft: false
 
 Surface就像是一块洁白的画板，这在前面有介绍到，那如果想要在这块画板上画画，我们就需要用到画笔和颜料，在这里给隆重介绍一下这两位成员：Canvas和Paint。
 
-![Canvas简介](./image.png)
+![Canvas简介](./image_0.png)
 >Android的Canvas和Java的Canvas不一样的，这里需要注意一下
 
 从官方文档介绍看，Canvas继承自Object对象
@@ -20,12 +20,12 @@ Canvas拥有draw的调用，为了绘制一些东西，你需要4个基本的组
 
 我们以drawRect为例：
 
-![drawRect方法](./image%20copy.png)
+![drawRect方法](./image_1.png)
 
 形参：float,float,float,float,Paint；
 分别代表矩形的左边，上边，右边，下边的位置和矩形的一些特征，位置好理解，那么Paint是什么呢？
 
-![Paint简介](./image%20copy%202.png)
+![Paint简介](./image_2.png)
 
 >The Paint class holds the style and color information about how to draw geometries, text and bitmaps.
 Paint对象拥有待绘制的几何图形，文本和位图的样式和颜色信息。

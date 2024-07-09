@@ -13,7 +13,7 @@ draft: false
 
 
 
-![Shader官方文档](./image.png)
+![Shader官方文档](./image_0.png)
 ### Shader
 
 Shader是一些类的基类，这些类在绘制时返回水平跨度颜色，如果Paint调用了setShader(Shader shader)方法，那么所有（除Bitmap)的绘制颜色都会从shader中取。
@@ -40,6 +40,6 @@ BitmapShader,ComposeShader,LinearGradient,RadialGradient,SweepGradient.
 我们给Paint设置Shader后，看看显示效果：
 
 
-![设置Shader后的效果](./image%20copy.png)
+![设置Shader后的效果](./image_1.png)
 
 看到了吗？颜色变啦...
