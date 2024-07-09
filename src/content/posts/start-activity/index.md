@@ -11,7 +11,7 @@ draft: false
 
 首先，Activity是继承自ContextThemeWrapper，而ContextThemeWrapper继承自ContextWrapper，而ContextWrapper继承自Context，具体关系如下图：
 
-![Activity关系图](../_res/Activity关系图.png)
+![Activity关系图](./image.png)
 
 Context 是一abstract类，基本没有实现，而真正的实现从名字就能看出来：
 `ContextImpl`。ContextWrapper也是继承自Context，但是它同时持有一个Context对象，这个对象是通过attachBaseContext(base:Context)这个方法传入ContextImpl，ContextWrapper中对Context的实现都是用如下这种方法实现：
