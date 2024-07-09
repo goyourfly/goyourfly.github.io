@@ -2,7 +2,7 @@
 title: OpenCV - 简介
 published: 2017-02-13
 tags: [OpenCV]
-category: OpenCV
+category: 技术
 draft: false
 ---
 

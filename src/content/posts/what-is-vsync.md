@@ -2,7 +2,7 @@
 title: VSync简介
 published: 2017-02-09
 tags: [Android]
-category: 'Android'
+category: 技术
 draft: false 
 ---
 

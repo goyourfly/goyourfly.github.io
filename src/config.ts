@@ -42,9 +42,9 @@ export const navBarConfig: NavBarConfig = {
 }
 
 export const profileConfig: ProfileConfig = {
-  avatar: 'assets/images/face.png',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+  avatar: 'assets/images/cat.jpg',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
   name: 'GYF',
-  bio: 'hello world',
+  bio: '“在这个信息爆炸的时代，真正的智慧不是知道所有答案，而是懂得提出正确的问题。---- GPT',
   links: [
     // {
     //   name: 'Twitter',
@@ -58,11 +58,11 @@ export const profileConfig: ProfileConfig = {
     //   icon: 'fa6-brands:steam',
     //   url: 'https://store.steampowered.com',
     // },
-    {
-      name: 'GitHub',
-      icon: 'fa6-brands:github',
-      url: 'https://github.com/goyourfly',
-    },
+    // {
+    //   name: 'GitHub',
+    //   icon: 'fa6-brands:github',
+    //   url: 'https://github.com/goyourfly',
+    // },
   ],
 }
 

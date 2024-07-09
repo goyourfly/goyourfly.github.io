@@ -2,7 +2,7 @@
 title: Activity - 启动模式
 published: 2017-03-06
 tags: [Android, Activity]
-category: Android
+category: 技术
 draft: false
 ---
 

@@ -2,7 +2,7 @@
 title: OpenCV - 物体特征匹配
 published: 2017-02-20
 tags: [OpenCV]
-category: OpenCV
+category: 技术
 draft: false
 ---
 

@@ -3,8 +3,8 @@ title: init.c都干了些什么？
 published: 2017-08-08
 description: 'init.c都干了些什么？'
 image: ''
-tags: [Android]
-category: 'Android'
+tags: [Android,Linux]
+category: '技术'
 draft: false 
 ---
 

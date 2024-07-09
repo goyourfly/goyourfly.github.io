@@ -1,5 +1,5 @@
 ---
-title: iExoPlayer源码解析
+title: ExoPlayer源码解析
 published: 2017-02-07
 image: ''
 tags: [Android]

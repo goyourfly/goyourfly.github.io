@@ -4,7 +4,7 @@ published: 2017-03-30
 description: 'CircleImageView - 工作原理'
 image: ''
 tags: [Android,Widgets]
-category: 'Android'
+category: '技术'
 draft: false 
 ---
 
