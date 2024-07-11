@@ -9,4 +9,4 @@ category: 风景
 - 还要常说的抗高反药物红景天，这个回答说没有用，还是去买正规的西药，乙酰唑胺，醋甲唑胺 之类的，但是可能会有过敏反应
 - https://www.zhihu.com/question/21087460/answer/108784335
 - 风景还是不错的
-- ![img.png](./ruoergai.mp4)
+- ![img.png](./img.png)
