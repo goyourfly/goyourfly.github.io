@@ -22,3 +22,11 @@ pnpm-debug.log*
 .DS_Store
 
 .vercel
+
+*__gen.go
+*__ignore.go
+*.swp
+*.swo
+~i_*
+ig_*
+zzzig_*
