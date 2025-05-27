@@ -3,8 +3,8 @@ title: macOS 的小坑
 published: 2025-05-27
 description: ''
 image: ''
-tags: []
-category: ''
+tags: [macOS]
+category: 工具
 draft: false 
 ---
 
